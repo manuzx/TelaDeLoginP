@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.buttonCard{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.buttonCard >div {
+    width: 200px;
+    margin: 15px;
+}
+
+.containerLogin{
+    display: flex;
+    width: 800px;
+    border: 1px solid rgb(0, 0, 0);
+
+}
+
+.icon-btn {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    border-radius: 90px;
+    border-color: blue;
+}
+
+.cardEsq ,.cardDir{
+    width: 45%;
+    border: 1px solid red;
+}
+
+.divMeio{
+    width: 10%;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.linhaDoMeio{
+    width: 2px;
+    height: 20px;
+    height: 30px;
+    border:1px solid rgb(197, 197, 197);
+}
+
+.meiodoMeio {
+    height: 40px;
+    width: 40px;
+    border: 1px solid rgb(197, 197, 197);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;  
+    font-size: small;
+}
+.cardDir .meio{
+     
+    padding: 20px;
+    border: 1px solid #000000;
+    text-align: center;
+    
+}
